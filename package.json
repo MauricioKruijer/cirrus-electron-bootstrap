@@ -6,5 +6,17 @@
   "repository": "https://github.com/MauricioKruijer/cirrus-electron-bootstrap",
   "author": "mauricio.kruijer@gmail.com",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "electron": "^2.0.8",
+    "node-sass": "^4.9.3",
+    "react-app-rewire-babel-loader": "^0.1.1",
+    "react-app-rewire-define-plugin": "^1.0.0",
+    "react-app-rewired": "^1.5.2",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.17.1"
+  },
+  "dependencies": {
+    "react-scripts": "^1.1.5"
+  }
 }
