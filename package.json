@@ -7,16 +7,12 @@
   "author": "mauricio.kruijer@gmail.com",
   "license": "MIT",
   "private": true,
-  "devDependencies": {
-    "electron": "^2.0.8",
-    "node-sass": "^4.9.3",
-    "react-app-rewire-babel-loader": "^0.1.1",
-    "react-app-rewire-define-plugin": "^1.0.0",
-    "react-app-rewired": "^1.5.2",
-    "sass-loader": "^7.1.0",
-    "webpack": "^4.17.1"
-  },
   "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
     "react-scripts": "^1.1.5"
+  },
+  "devDependencies": {
+    "electron": "^2.0.8"
   }
 }
