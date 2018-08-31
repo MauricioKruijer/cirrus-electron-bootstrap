@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+
+// import Card from '@lightspeed/cirrus-card';
+// import Logo from '@lightspeed/cirrus-logo';
+import Text from '@lightspeed/cirrus-text';
+
+import './App.scss';
 
 class App extends Component {
   render() {
