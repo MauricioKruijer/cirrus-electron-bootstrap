@@ -2,18 +2,31 @@
   "name": "cirrus-electron-bootstrap",
   "version": "0.0.1",
   "description": "An example electron app that implments cirrus using react",
-  "main": "public/electron.js",
+  "main": "src/electron-starter.js",
+  "homepage": "./",
   "repository": "https://github.com/MauricioKruijer/cirrus-electron-bootstrap",
   "author": "mauricio.kruijer@gmail.com",
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@lightspeed/cirrus-card": "^3.0.0",
+    "@lightspeed/cirrus-logo": "^3.0.0",
+    "@lightspeed/cirrus-text": "^4.0.0",
+    "@lightspeed/cirrus-tokens": "^2.8.0",
+    "classnames": "^2.2.6",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "^1.1.5"
   },
   "devDependencies": {
-    "electron": "^2.0.8"
+    "css-loader": "^1.0.0",
+    "dotenv": "^6.0.0",
+    "dotenv-webpack": "^1.5.7",
+    "electron": "^2.0.8",
+    "node-sass": "^4.9.3",
+    "react-app-rewire-babel-loader": "^0.1.1",
+    "react-app-rewired": "^1.5.2",
+    "sass-loader": "^7.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
