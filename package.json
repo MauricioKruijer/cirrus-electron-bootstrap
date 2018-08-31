@@ -1,0 +1,10 @@
+{
+  "name": "cirrus-electron-bootstrap",
+  "version": "0.0.1",
+  "description": "An example electron app that implments cirrus using react",
+  "main": "public/electron.js",
+  "repository": "https://github.com/MauricioKruijer/cirrus-electron-bootstrap",
+  "author": "mauricio.kruijer@gmail.com",
+  "license": "MIT",
+  "private": true
+}
