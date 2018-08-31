@@ -1,0 +1,191 @@
+@import '@lightspeed/cirrus-tokens/index.scss';
+@import '@lightspeed/cirrus-tokens/partials/index.scss';
+
+// @TODO: Remove and pull from @lightspeed/cirrus-tokens once
+// https://github.com/lightspeedretail/cirrus/pull/363 is merged/published
+
+.cr-flex {
+  display: flex;
+}
+
+.cr-inline-flex {
+  display: inline-flex;
+}
+
+.cr-flex-row {
+  flex-direction: row;
+}
+
+.cr-flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.cr-flex-col {
+  flex-direction: column;
+}
+
+.cr-flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.cr-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.cr-flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.cr-flex-no-wrap {
+  flex-wrap: nowrap;
+}
+
+.cr-items-start {
+  align-items: flex-start;
+}
+
+.cr-items-end {
+  align-items: flex-end;
+}
+
+.cr-items-center {
+  align-items: center;
+}
+
+.cr-items-baseline {
+  align-items: baseline;
+}
+
+.cr-items-stretch {
+  align-items: stretch;
+}
+
+.cr-self-auto {
+  align-self: auto;
+}
+
+.cr-self-start {
+  align-self: flex-start;
+}
+
+.cr-self-end {
+  align-self: flex-end;
+}
+
+.cr-self-center {
+  align-self: center;
+}
+
+.cr-self-stretch {
+  align-self: stretch;
+}
+
+.cr-justify-start {
+  justify-content: flex-start;
+}
+
+.cr-justify-end {
+  justify-content: flex-end;
+}
+
+.cr-justify-center {
+  justify-content: center;
+}
+
+.cr-justify-between {
+  justify-content: space-between;
+}
+
+.cr-justify-around {
+  justify-content: space-around;
+}
+
+.cr-content-center {
+  align-content: center;
+}
+
+.cr-content-start {
+  align-content: flex-start;
+}
+
+.cr-content-end {
+  align-content: flex-end;
+}
+
+.cr-content-between {
+  align-content: space-between;
+}
+
+.cr-content-around {
+  align-content: space-around;
+}
+
+.cr-flex-1 {
+  flex: 1;
+}
+
+.cr-flex-auto {
+  flex: auto;
+}
+
+.cr-flex-initial {
+  flex: initial;
+}
+
+.cr-flex-none {
+  flex: none;
+}
+
+.cr-flex-grow {
+  flex-grow: 1;
+}
+
+.cr-flex-shrink {
+  flex-shrink: 1;
+}
+
+.cr-flex-no-grow {
+  flex-grow: 0;
+}
+
+.cr-flex-no-shrink {
+  flex-shrink: 0;
+}
+
+.border-1 {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.border-left-3 {
+  border-left-width: 3px;
+  border-left-style: solid;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.line-height {
+  line-height: 1;
+}
+
+.line-height-1 {
+  line-height: 1.1;
+}
+
+.line-height-2 {
+  line-height: 1.2;
+}
+
+.line-height-3 {
+  line-height: 1.3;
+}
+
+.line-height-4 {
+  line-height: 1.4;
+}
+
+.line-height-5 {
+  line-height: 1.5;
+}
